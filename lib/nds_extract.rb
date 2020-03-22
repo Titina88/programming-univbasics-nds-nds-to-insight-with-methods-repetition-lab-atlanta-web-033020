@@ -44,7 +44,7 @@ def total_gross(source)
   mega_list_of_directors = list_of_directors(source)
  index = 0
    while index < mega_list_of_directors.length do 
-     binding.pry
+    # binding.pry
     grand_total_gross += director_in_total[mega_list_of_directors[index]]
     index += 1
   end
